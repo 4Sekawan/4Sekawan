@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Isfa23.com</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--navbar-->
+    <div style="width: 367px;" class="dnv">
+      <ul class="">
+        <li>HOME</li>
+        <li>Daftar Isi</li>
+        <li>Tentang Saya</li>
+      </ul>
+    </div>
+    <!--navbar end-->
+    <!--konten-->
+    <div class="bg-logo" >
+     <img src="4slogo.png" width="130px" height="130px">
+    </div>
+    <!--konten end-->
+    <!--footer-->
+    <div>
+      <h1>by Isfa23</h1>
+    </div>
+    <!--footer end-->
+  </body>
+</html>
