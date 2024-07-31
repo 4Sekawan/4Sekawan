@@ -1,0 +1,17 @@
+body{
+  background-color: tomato;
+  display: flex;
+}
+.dnv{ 
+  background-color: rgba(255,255,255,.5)
+
+}
+.bg-logo{
+  background-color: rgba(0,0,0,.5);
+  width: 140px;
+  height: 140px;
+  border-radius: 10px;
+  align-content: center;
+  align-items: center;
+}
+/**/
