@@ -1,0 +1,65 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* base */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Sans-Serif'
+}
+body{
+  background: url("img/bgb.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 20px;
+}
+/* form container */
+.form-container{
+  display: flex;
+  width: 1000px;
+  height: 600px;
+  border: 3px solid rgba(17, 14, 14, 0.39);
+  border-radius: 30px;
+  backdrop-filter: blur(15px);
+  /* overflow: hidden; */
+}
+/* col 1 */
+.col-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  width: 55%;
+  border: 3px solid rgba(7, 1, 1, 0.171);
+  background: rgba(0, 0, 0, 0.377);
+  backdrop-filter: blur(20px);
+  border-radius: 25px 30% 20% 25px;
+  transition: border-radius .3s;
+/* logo */
+.logo{
+  position: relative;
+}
+.logo1{
+  width: 400px;
+}
+/* kata */
+.featured-words{
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: #ff0000;
+  width: 300px;
+}
+.featured-words span{
+  font-weight: 600;
+  font-size: large;
+  color:  rgb(255, 255, 255);
+}
